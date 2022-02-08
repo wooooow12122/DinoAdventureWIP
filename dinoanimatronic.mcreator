@@ -17,21 +17,21 @@
       "registry_name": "tyrannosaurus_rex_fossil"
     },
     {
-      "name": "Dinosaurmeat",
-      "type": "food",
+      "name": "Spear",
+      "type": "tool",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dinosaurmeat"
+      "registry_name": "spear"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.dinoanimatronic.spear": "Spear",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
-      "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
-      "item.dinoanimatronic.dinosaurmeat": "Dinosaurmeat"
+      "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil"
     }
   },
   "foldersRoot": {
