@@ -3,25 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hammer",
+    "texture": "katana",
     "customModelName": "Normal",
-    "name": "Hammer",
+    "name": "Katana",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:DinoAnimatronics"
     },
-    "toolType": "Pickaxe",
+    "toolType": "Sword",
     "harvestLevel": 1,
-    "efficiency": 8.0,
-    "attackSpeed": 0.5,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 7.0,
-    "usageCount": 100,
+    "damageVsEntity": 8.5,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "KatanaLivingEntityIsHitWithTool"
+    }
   }
 }

@@ -46,7 +46,7 @@ public class HammerItem extends DinoanimatronicModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 1, -3.5f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("hammer"));
 	}
 }

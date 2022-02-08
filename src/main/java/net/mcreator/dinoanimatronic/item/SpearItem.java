@@ -55,7 +55,7 @@ public class SpearItem extends DinoanimatronicModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3.75f, new Item.Properties().group(DinoAnimatronicsItemGroup.tab)) {
+		}, 3, -1.5f, new Item.Properties().group(DinoAnimatronicsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);

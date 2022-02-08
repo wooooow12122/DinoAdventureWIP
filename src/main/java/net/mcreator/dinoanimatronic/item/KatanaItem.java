@@ -7,14 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
 
-import net.mcreator.dinoanimatronic.procedures.ClawToolInHandTickProcedure;
-import net.mcreator.dinoanimatronic.procedures.ClawLivingEntityIsHitWithToolProcedure;
+import net.mcreator.dinoanimatronic.procedures.KatanaLivingEntityIsHitWithToolProcedure;
+import net.mcreator.dinoanimatronic.itemgroup.DinoAnimatronicsItemGroup;
 import net.mcreator.dinoanimatronic.DinoanimatronicModElements;
 
 import java.util.stream.Stream;
@@ -23,19 +21,19 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 @DinoanimatronicModElements.ModElement.Tag
-public class ClawItem extends DinoanimatronicModElements.ModElement {
-	@ObjectHolder("dinoanimatronic:claw")
+public class KatanaItem extends DinoanimatronicModElements.ModElement {
+	@ObjectHolder("dinoanimatronic:katana")
 	public static final Item block = null;
 
-	public ClawItem(DinoanimatronicModElements instance) {
-		super(instance, 7);
+	public KatanaItem(DinoanimatronicModElements instance) {
+		super(instance, 15);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1000;
 			}
 
 			public float getEfficiency() {
@@ -43,7 +41,7 @@ public class ClawItem extends DinoanimatronicModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 6.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -57,7 +55,7 @@ public class ClawItem extends DinoanimatronicModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, 1f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2f, new Item.Properties().group(DinoAnimatronicsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
@@ -66,22 +64,10 @@ public class ClawItem extends DinoanimatronicModElements.ModElement {
 				double z = entity.getPosZ();
 				World world = entity.world;
 
-				ClawLivingEntityIsHitWithToolProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+				KatanaLivingEntityIsHitWithToolProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
-
-			@Override
-			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-				super.inventoryTick(itemstack, world, entity, slot, selected);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				if (selected)
-
-					ClawToolInHandTickProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-							(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			}
-		}.setRegistryName("claw"));
+		}.setRegistryName("katana"));
 	}
 }
