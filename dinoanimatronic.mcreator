@@ -25,14 +25,6 @@
       "registry_name": "spear"
     },
     {
-      "name": "Test",
-      "type": "recipe",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test"
-    },
-    {
       "name": "SpearLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 3,
