@@ -31,6 +31,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test"
+    },
+    {
+      "name": "SpearLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hammer",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer"
+    },
+    {
+      "name": "Spearcraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spearcraft"
+    },
+    {
+      "name": "Hammercraft",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammercraft"
+    },
+    {
+      "name": "ClawLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claw_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClawToolInHandTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claw_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Claw",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claw"
     }
   ],
   "variable_elements": [],
@@ -39,7 +119,9 @@
     "en_us": {
       "item.dinoanimatronic.spear": "Spear",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
-      "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil"
+      "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
+      "item.dinoanimatronic.hammer": "Hammer",
+      "item.dinoanimatronic.claw": "Claw"
     }
   },
   "foldersRoot": {

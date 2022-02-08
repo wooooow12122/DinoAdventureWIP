@@ -3,28 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "spear",
+    "texture": "hammer",
     "customModelName": "Normal",
-    "name": "Spear",
+    "name": "Hammer",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
-    "toolType": "Sword",
+    "toolType": "Pickaxe",
     "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 0.25,
+    "efficiency": 8.0,
+    "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 6.0,
+    "damageVsEntity": 7.0,
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "SpearLivingEntityIsHitWithTool"
-    }
+    "damageOnCrafting": false
   }
 }

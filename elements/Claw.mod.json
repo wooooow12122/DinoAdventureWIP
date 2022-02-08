@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "spear",
+    "texture": "claw",
     "customModelName": "Normal",
-    "name": "Spear",
+    "name": "Claw",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
@@ -13,9 +13,9 @@
     "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 0.25,
+    "attackSpeed": 0.1,
     "enchantability": 2,
-    "damageVsEntity": 6.0,
+    "damageVsEntity": 8.0,
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
@@ -24,7 +24,10 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "SpearLivingEntityIsHitWithTool"
+      "name": "ClawLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "ClawToolInHandTick"
     }
   }
 }
