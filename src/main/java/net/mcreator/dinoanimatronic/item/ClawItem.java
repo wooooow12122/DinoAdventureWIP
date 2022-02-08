@@ -7,7 +7,6 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
@@ -15,6 +14,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.dinoanimatronic.procedures.ClawToolInHandTickProcedure;
 import net.mcreator.dinoanimatronic.procedures.ClawLivingEntityIsHitWithToolProcedure;
+import net.mcreator.dinoanimatronic.itemgroup.DinoAnimatronicsItemGroup;
 import net.mcreator.dinoanimatronic.DinoanimatronicModElements;
 
 import java.util.stream.Stream;
@@ -35,7 +35,7 @@ public class ClawItem extends DinoanimatronicModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1000;
 			}
 
 			public float getEfficiency() {
@@ -43,7 +43,7 @@ public class ClawItem extends DinoanimatronicModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {
@@ -57,7 +57,7 @@ public class ClawItem extends DinoanimatronicModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3.9f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3.8f, new Item.Properties().group(DinoAnimatronicsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
