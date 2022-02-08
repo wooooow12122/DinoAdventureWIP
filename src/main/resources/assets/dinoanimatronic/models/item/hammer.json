@@ -1,6 +1,15 @@
 {
-  "parent": "item/handheld",
+  "parent": "dinoanimatronic:custom/hammer",
   "textures": {
-    "layer0": "dinoanimatronic:items/hammer"
+    "0": "dinoanimatronic:blocks/",
+    "1": "dinoanimatronic:blocks/",
+    "2": "dinoanimatronic:blocks/",
+    "3": "dinoanimatronic:blocks/",
+    "4": "dinoanimatronic:blocks/",
+    "5": "dinoanimatronic:blocks/",
+    "6": "dinoanimatronic:blocks/",
+    "7": "dinoanimatronic:blocks/",
+    "8": "dinoanimatronic:blocks/",
+    "particle": "dinoanimatronic:items/hammertexture"
   }
 }

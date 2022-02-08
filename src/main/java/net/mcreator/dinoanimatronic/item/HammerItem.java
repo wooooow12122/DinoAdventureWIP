@@ -24,7 +24,7 @@ public class HammerItem extends DinoanimatronicModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 3000;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class HammerItem extends DinoanimatronicModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
