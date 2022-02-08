@@ -1,18 +1,11 @@
 
 package net.mcreator.dinoanimatronic.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.dinoanimatronic.DinoanimatronicModElements;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @DinoanimatronicModElements.ModElement.Tag
 public class SpearItem extends DinoanimatronicModElements.ModElement {
+
 	@ObjectHolder("dinoanimatronic:spear")
 	public static final Item block = null;
 
@@ -47,6 +40,8 @@ public class SpearItem extends DinoanimatronicModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("spear"));
 	}
+
 }

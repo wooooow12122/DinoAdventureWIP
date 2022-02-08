@@ -23,6 +23,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "spear"
+    },
+    {
+      "name": "Test",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
