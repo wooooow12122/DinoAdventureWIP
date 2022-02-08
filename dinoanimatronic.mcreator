@@ -127,13 +127,39 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "clawcraft"
+    },
+    {
+      "name": "Camouflage8shoesBootsTickEvent",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camouflage_8shoes_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Theif",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theif"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "entity.dinoanimatronic.theif": "barbarian",
       "item.dinoanimatronic.spear": "Spear",
+      "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
       "item.dinoanimatronic.nail": "Nail",
