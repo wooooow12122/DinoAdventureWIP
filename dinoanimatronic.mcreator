@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tyrannosaurus_rex_fossil"
+    },
+    {
+      "name": "Dinosaurmeat",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurmeat"
     }
   ],
   "variable_elements": [],
@@ -22,7 +30,8 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
-      "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil"
+      "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
+      "item.dinoanimatronic.dinosaurmeat": "Dinosaurmeat"
     }
   },
   "foldersRoot": {
