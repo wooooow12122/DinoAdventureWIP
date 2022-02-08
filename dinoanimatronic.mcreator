@@ -111,6 +111,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "claw"
+    },
+    {
+      "name": "Nail",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nail"
+    },
+    {
+      "name": "Nailcraft",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailcraft"
+    },
+    {
+      "name": "Clawcraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clawcraft"
     }
   ],
   "variable_elements": [],
@@ -120,6 +144,7 @@
       "item.dinoanimatronic.spear": "Spear",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
+      "item.dinoanimatronic.nail": "Nail",
       "item.dinoanimatronic.hammer": "Hammer",
       "item.dinoanimatronic.claw": "Claw"
     }
