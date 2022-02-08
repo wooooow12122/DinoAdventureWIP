@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Dino Animatronics",
+    "icon": {
+      "value": "Blocks.LIME_GLAZED_TERRACOTTA"
+    },
+    "showSearch": true
+  }
+}
