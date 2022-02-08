@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tyrannosaurus_rex_fossil"
+    },
+    {
+      "name": "Test",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
