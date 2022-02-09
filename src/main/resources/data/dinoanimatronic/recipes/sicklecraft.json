@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "dinoanimatronic:darkstick"
+    },
+    "2": {
+      "item": "dinoanimatronic:nail"
+    },
+    "4": {
+      "item": "dinoanimatronic:darkstick"
+    },
+    "7": {
+      "item": "dinoanimatronic:darkstick"
+    }
+  },
+  "result": {
+    "item": "dinoanimatronic:sickle",
+    "count": 1
+  }
+}

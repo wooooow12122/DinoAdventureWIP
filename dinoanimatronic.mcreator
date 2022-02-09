@@ -271,6 +271,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Fakedinosaur",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fakedinosaur"
+    },
+    {
+      "name": "Sicklecraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sicklecraft"
     }
   ],
   "variable_elements": [],
@@ -278,10 +294,12 @@
   "language_map": {
     "en_us": {
       "item.dinoanimatronic.darkstick": "Darkstick",
+      "item.dinoanimatronic.fakedinosaur_spawn_egg": "Fakedinosaur Spawn Egg",
       "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "item.dinoanimatronic.hammer": "Hammer",
       "item.dinoanimatronic.sickle": "Sickle",
+      "entity.dinoanimatronic.fakedinosaur": "Fakedinosaur",
       "item.dinoanimatronic.claw": "Claw",
       "entity.dinoanimatronic.theif": "barbarian",
       "item.dinoanimatronic.spear": "Spear",
