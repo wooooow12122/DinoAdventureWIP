@@ -215,23 +215,81 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sickle"
+    },
+    {
+      "name": "Skindinosaur",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skindinosaur"
+    },
+    {
+      "name": "Healshield",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healshield",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dinosaurshield",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurshield"
+    },
+    {
+      "name": "Dinoshieldcraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinoshieldcraft"
+    },
+    {
+      "name": "DinosaurshieldLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurshield_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.dinoanimatronic.theif": "barbarian",
       "item.dinoanimatronic.darkstick": "Darkstick",
-      "item.dinoanimatronic.spear": "Spear",
-      "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
-      "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
-      "item.dinoanimatronic.nail": "Nail",
+      "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "item.dinoanimatronic.hammer": "Hammer",
       "item.dinoanimatronic.sickle": "Sickle",
-      "item.dinoanimatronic.katana": "Katana",
-      "item.dinoanimatronic.claw": "Claw"
+      "item.dinoanimatronic.claw": "Claw",
+      "entity.dinoanimatronic.theif": "barbarian",
+      "item.dinoanimatronic.spear": "Spear",
+      "item.dinoanimatronic.dinosaurshield": "Dinosaurshield",
+      "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
+      "item.dinoanimatronic.nail": "Nail",
+      "item.dinoanimatronic.skindinosaur": "Skindinosaur",
+      "item.dinoanimatronic.katana": "Katana"
     }
   },
   "foldersRoot": {
