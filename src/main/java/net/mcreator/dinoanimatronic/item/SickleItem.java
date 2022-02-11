@@ -5,14 +5,14 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 
-import net.mcreator.dinoanimatronic.procedures.SpearLivingEntityIsHitWithToolProcedure;
-import net.mcreator.dinoanimatronic.itemgroup.DinoAnimatronicsItemGroup;
+import net.mcreator.dinoanimatronic.procedures.SickleLivingEntityIsHitWithToolProcedure;
 import net.mcreator.dinoanimatronic.DinoanimatronicModElements;
 
 import java.util.stream.Stream;
@@ -21,19 +21,19 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 @DinoanimatronicModElements.ModElement.Tag
-public class SpearItem extends DinoanimatronicModElements.ModElement {
-	@ObjectHolder("dinoanimatronic:spear")
+public class SickleItem extends DinoanimatronicModElements.ModElement {
+	@ObjectHolder("dinoanimatronic:sickle")
 	public static final Item block = null;
 
-	public SpearItem(DinoanimatronicModElements instance) {
-		super(instance, 2);
+	public SickleItem(DinoanimatronicModElements instance) {
+		super(instance, 18);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 1250;
+				return 100;
 			}
 
 			public float getEfficiency() {
@@ -41,7 +41,7 @@ public class SpearItem extends DinoanimatronicModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
@@ -55,7 +55,7 @@ public class SpearItem extends DinoanimatronicModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -1.5f, new Item.Properties().group(DinoAnimatronicsItemGroup.tab)) {
+		}, 1, -3.25f, new Item.Properties().group(ItemGroup.TOOLS)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
@@ -64,10 +64,10 @@ public class SpearItem extends DinoanimatronicModElements.ModElement {
 				double z = entity.getPosZ();
 				World world = entity.world;
 
-				SpearLivingEntityIsHitWithToolProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+				SickleLivingEntityIsHitWithToolProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
-		}.setRegistryName("spear"));
+		}.setRegistryName("sickle"));
 	}
 }

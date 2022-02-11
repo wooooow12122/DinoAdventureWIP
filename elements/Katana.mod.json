@@ -3,24 +3,20 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "claw",
+    "texture": "katana",
     "customModelName": "Normal",
-    "name": "Claw",
+    "name": "Katana",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:DinoAnimatronics"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
-<<<<<<< HEAD
-    "attackSpeed": 0.1,
-=======
-    "attackSpeed": 5.0,
->>>>>>> 14603c53649119afb0a9ffdd6738fb365d7bda90
+    "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 8.0,
-    "usageCount": 100,
+    "damageVsEntity": 8.5,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
@@ -28,10 +24,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "ClawLivingEntityIsHitWithTool"
-    },
-    "onItemInUseTick": {
-      "name": "ClawToolInHandTick"
+      "name": "KatanaLivingEntityIsHitWithTool"
     }
   }
 }
