@@ -41,28 +41,12 @@
       }
     },
     {
-      "name": "Hammer",
-      "type": "tool",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hammer"
-    },
-    {
       "name": "Spearcraft",
       "type": "recipe",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spearcraft"
-    },
-    {
-      "name": "Hammercraft",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hammercraft"
     },
     {
       "name": "ClawLivingEntityIsHitWithTool",
@@ -163,7 +147,6 @@
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "block.dinoanimatronic.tyrannosaurus_rex_fossil": "Tyrannosaurus Rex Fossil",
       "item.dinoanimatronic.nail": "Nail",
-      "item.dinoanimatronic.hammer": "Hammer",
       "item.dinoanimatronic.claw": "Claw"
     }
   },

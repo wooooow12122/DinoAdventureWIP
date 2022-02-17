@@ -2,9 +2,9 @@
   "_fv": 24,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "spear",
-    "customModelName": "Normal",
+    "customModelName": "spear:default",
     "name": "Spear",
     "specialInfo": [],
     "creativeTab": {
