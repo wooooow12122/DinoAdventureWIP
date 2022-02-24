@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "dinoanimatronic:custom/spear",
   "textures": {
-    "layer0": "dinoanimatronic:items/spear"
+    "0": "dinoanimatronic:blocks/spearmodeltexture",
+    "particle": "dinoanimatronic:items/spear"
   }
 }

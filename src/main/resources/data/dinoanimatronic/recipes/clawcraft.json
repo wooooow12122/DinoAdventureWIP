@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "345",
-    " 7 "
+    "345"
   ],
   "key": {
     "0": {
@@ -23,9 +22,6 @@
     },
     "5": {
       "item": "minecraft:leather"
-    },
-    "7": {
-      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
