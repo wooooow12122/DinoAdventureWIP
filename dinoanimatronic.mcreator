@@ -119,23 +119,13 @@
           }
         ]
       }
-    },
-    {
-      "name": "Theif",
-      "type": "livingentity",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "theif"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.dinoanimatronic.theif": "barbarian",
       "item.dinoanimatronic.spear": "Spear",
-      "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "item.dinoanimatronic.nail": "Nail",
       "item.dinoanimatronic.claw": "Claw"
