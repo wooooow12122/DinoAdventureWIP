@@ -127,6 +127,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "theif"
+    },
+    {
+      "name": "Burger",
+      "type": "food",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger"
     }
   ],
   "variable_elements": [],
@@ -138,6 +146,7 @@
       "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "item.dinoanimatronic.nail": "Nail",
+      "item.dinoanimatronic.burger": "Burger",
       "item.dinoanimatronic.claw": "Claw"
     }
   },
