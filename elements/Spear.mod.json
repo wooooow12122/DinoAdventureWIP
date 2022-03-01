@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "spear",
+    "texture": "speartexture",
     "customModelName": "spear:default",
     "name": "Spear",
     "specialInfo": [],
