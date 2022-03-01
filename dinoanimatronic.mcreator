@@ -124,7 +124,7 @@
       "name": "Burger",
       "type": "food",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "burger"
     },
@@ -132,7 +132,7 @@
       "name": "Tago",
       "type": "food",
       "sortid": 16,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tago"
     },
@@ -140,7 +140,7 @@
       "name": "Cauliflower",
       "type": "food",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cauliflower"
     },
@@ -148,7 +148,7 @@
       "name": "Cheese",
       "type": "food",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cheese"
     }
