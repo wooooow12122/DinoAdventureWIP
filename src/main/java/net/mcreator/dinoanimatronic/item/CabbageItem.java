@@ -19,12 +19,12 @@ import net.mcreator.dinoanimatronic.DinoanimatronicModElements;
 import java.util.List;
 
 @DinoanimatronicModElements.ModElement.Tag
-public class CheeseItem extends DinoanimatronicModElements.ModElement {
-	@ObjectHolder("dinoanimatronic:cheese")
+public class CabbageItem extends DinoanimatronicModElements.ModElement {
+	@ObjectHolder("dinoanimatronic:cabbage")
 	public static final Item block = null;
 
-	public CheeseItem(DinoanimatronicModElements instance) {
-		super(instance, 17);
+	public CabbageItem(DinoanimatronicModElements instance) {
+		super(instance, 23);
 	}
 
 	@Override
@@ -35,10 +35,10 @@ public class CheeseItem extends DinoanimatronicModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(DinoAnimatronicsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(1f)
+					.food((new Food.Builder()).hunger(1).saturation(1f)
 
 							.build()));
-			setRegistryName("cheese");
+			setRegistryName("cabbage");
 		}
 
 		@Override
@@ -49,7 +49,7 @@ public class CheeseItem extends DinoanimatronicModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Cheese"));
+			list.add(new StringTextComponent("Cabbage"));
 		}
 	}
 }

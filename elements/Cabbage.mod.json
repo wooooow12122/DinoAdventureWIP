@@ -5,17 +5,17 @@
     "renderType": 0,
     "texture": "cauliflower",
     "customModelName": "Normal",
-    "name": "Cauliflower",
+    "name": "Cabbage",
     "rarity": "COMMON",
     "specialInfo": [
-      "Cauliflower"
+      "Cabbage"
     ],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:DinoAnimatronics"
     },
     "stackSize": 64,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "nutritionalValue": 1,
+    "saturation": 1.0,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""

@@ -1,9 +1,19 @@
 
 package net.mcreator.dinoanimatronic.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.UseAction;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.Food;
+
+import net.mcreator.dinoanimatronic.DinoanimatronicModElements;
+
 @DinoanimatronicModElements.ModElement.Tag
 public class BurgerItem extends DinoanimatronicModElements.ModElement {
-
 	@ObjectHolder("dinoanimatronic:burger")
 	public static final Item block = null;
 
@@ -17,7 +27,6 @@ public class BurgerItem extends DinoanimatronicModElements.ModElement {
 	}
 
 	public static class FoodItemCustom extends Item {
-
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(4).saturation(0.3f)
@@ -30,7 +39,5 @@ public class BurgerItem extends DinoanimatronicModElements.ModElement {
 		public UseAction getUseAction(ItemStack itemstack) {
 			return UseAction.EAT;
 		}
-
 	}
-
 }

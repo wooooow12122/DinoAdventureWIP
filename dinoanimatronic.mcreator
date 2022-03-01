@@ -124,33 +124,57 @@
       "name": "Burger",
       "type": "food",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "burger"
-    },
-    {
-      "name": "Tago",
-      "type": "food",
-      "sortid": 16,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "tago"
-    },
-    {
-      "name": "Cauliflower",
-      "type": "food",
-      "sortid": 18,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "cauliflower"
     },
     {
       "name": "Cheese",
       "type": "food",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cheese"
+    },
+    {
+      "name": "Cheesecraft",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheesecraft"
+    },
+    {
+      "name": "Taco",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taco"
+    },
+    {
+      "name": "Tacocraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacocraft"
+    },
+    {
+      "name": "Burgercraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burgercraft"
+    },
+    {
+      "name": "Cabbage",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabbage"
     }
   ],
   "variable_elements": [],
@@ -160,8 +184,12 @@
       "entity.dinoanimatronic.theif": "barbarian",
       "item.dinoanimatronic.spear": "Spear",
       "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
+      "item.dinoanimatronic.cheese": "Cheese",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "item.dinoanimatronic.nail": "Nail",
+      "item.dinoanimatronic.burger": "Burger",
+      "item.dinoanimatronic.taco": "Taco",
+      "item.dinoanimatronic.cabbage": "Cabbage",
       "item.dinoanimatronic.claw": "Claw"
     }
   },

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:bread"
+    },
+    "3": {
+      "item": "dinoanimatronic:cabbage"
+    },
+    "4": {
+      "item": "dinoanimatronic:cheese"
+    },
+    "5": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "7": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "dinoanimatronic:burger",
+    "count": 1
+  }
+}

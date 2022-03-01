@@ -5,17 +5,17 @@
     "renderType": 0,
     "texture": "tagotuxtrue",
     "customModelName": "Normal",
-    "name": "Tago",
+    "name": "Taco",
     "rarity": "COMMON",
     "specialInfo": [
-      "Tago"
+      "Taco"
     ],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:DinoAnimatronics"
     },
     "stackSize": 64,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "nutritionalValue": 15,
+    "saturation": 20.0,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""

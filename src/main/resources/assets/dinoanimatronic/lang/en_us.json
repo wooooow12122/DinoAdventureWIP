@@ -2,7 +2,11 @@
   "entity.dinoanimatronic.theif": "barbarian",
   "item.dinoanimatronic.spear": "Spear",
   "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
+  "item.dinoanimatronic.cheese": "Cheese",
   "itemGroup.tabdino_animatronics": "Dino Animatronics",
   "item.dinoanimatronic.nail": "Nail",
+  "item.dinoanimatronic.burger": "Burger",
+  "item.dinoanimatronic.taco": "Taco",
+  "item.dinoanimatronic.cabbage": "Cabbage",
   "item.dinoanimatronic.claw": "Claw"
 }
