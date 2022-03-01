@@ -121,14 +121,6 @@
       }
     },
     {
-      "name": "Theif",
-      "type": "livingentity",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "theif"
-    },
-    {
       "name": "Burger",
       "type": "food",
       "sortid": 15,
@@ -145,20 +137,20 @@
       "registry_name": "tago"
     },
     {
-      "name": "Cheese",
-      "type": "food",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cheese"
-    },
-    {
       "name": "Cauliflower",
       "type": "food",
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cauliflower"
+    },
+    {
+      "name": "Cheese",
+      "type": "food",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese"
     }
   ],
   "variable_elements": [],
@@ -168,12 +160,8 @@
       "entity.dinoanimatronic.theif": "barbarian",
       "item.dinoanimatronic.spear": "Spear",
       "item.dinoanimatronic.theif_spawn_egg": "barbarian Spawn Egg",
-      "item.dinoanimatronic.tago": "Tago",
-      "item.dinoanimatronic.cheese": "Cheese",
       "itemGroup.tabdino_animatronics": "Dino Animatronics",
       "item.dinoanimatronic.nail": "Nail",
-      "item.dinoanimatronic.burger": "Burger",
-      "item.dinoanimatronic.cauliflower": "Cauliflower",
       "item.dinoanimatronic.claw": "Claw"
     }
   },
